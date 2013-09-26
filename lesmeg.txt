@@ -1,0 +1,42 @@
+# Nynorsk app
+
+> Oversett mellom bokmål og nynorsk like enkelt som å sende en melding.
+
+Appen har som mål å gjøre nynorsk enklere.
+Spesielt for offentlige ansatte og skoleelever hvor nynorsk ikke er valgfritt.
+
+
+## Visste du at
+
+Offentlige ansatte plikter å besvare skriftlige henvendelser i samme målform, dvs. nynorsk skrevne henvendelser skal besvares på nynorsk. Statlige virksomheter som henvender seg til hele landet plikter å ha et minimum av 25% nynorsk. I realiteten skjer ikke dette da det er for lite nynorsk kunnskap og villighet. Det er også en stor andel skoleelever som sliter med nynorsk. Løsningen er bedre hjelpemidler.
+
+
+## Videre planer
+
+Å gjøre nynorsk enklere handler ikke bare om å servere svaret på sølvfat.
+
+Her er en liten smakbit av hva som vurderes:
+
+- Huskeliste
+- Ordbok
+- Grammatikk
+- Øvelser
+- Ferdighetstest
+- Interaktiv "lær nynorsk" guide
+
+
+## Praktisk info
+
+- Pris: 21 kr
+- Tilgjengelig på: iOS (Android versjon under utvikling)
+- Webside: http://sindresorhus.com/nynorskapp/
+- Pressekit: https://github.com/sindresorhus/nynorskapp/archive/nynorskapp-pressekit.zip
+
+
+## Kontakt
+
+Sindre Sorhus
+
+sindresorhus@gmail.com
+https://twitter.com/sindresorhus
+http://sindresorhus.com
