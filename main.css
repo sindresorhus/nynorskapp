@@ -26,7 +26,6 @@ html {
 	background: #682932 url(bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-ms-background-size: cover;
 	background-size: cover;
 }
 
@@ -78,7 +77,6 @@ a {
 .button-appstore {
 	background-color: #9e6a66;
 	background: -moz-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
-	background: -ms-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
 	background: -webkit-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
 	background: linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
 	border: 1px solid rgba(155, 101, 99, 0.6);
@@ -98,7 +96,6 @@ a {
 	opacity: 0.6;
 	-webkit-transition: opacity 0.5s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 }
 
@@ -147,7 +144,6 @@ a {
 
 	.button-appstore {
 		background: -moz-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
-		background: -ms-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
 		background: -webkit-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
 		background: linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
 	}
