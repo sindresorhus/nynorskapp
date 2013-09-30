@@ -98,7 +98,7 @@ a {
 	        animation: pulse 2s infinite ease-in-out;
 }
 
-.button-appstore small:before {
+.button-appstore:before {
 	content: 'O';
 	position: absolute;
 	font: 50px/1 'ModernPictogramsNormal', Helvetica, sans-serif;
@@ -165,7 +165,41 @@ a {
 }
 
 @media (max-width: 480px) {
+
+	h1 {
+		font-size: 35px;
+	}
+
+	.container {
+		margin: auto;
+		position: relative;
+		width: 95%;
+	}
+
+	.button {
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		margin: auto;
+		width: 100%;
+	}
+
 	.screenshot {
 		display: block;
+		margin: 0;
 	}
+
+}
+
+@media (max-width: 340px) {
+
+	.button {
+		padding-left: 30px;
+		border: 1px solid #f00;
+	}
+
+	.button-appstore:before {
+		left: 2px;
+	}
+
 }
