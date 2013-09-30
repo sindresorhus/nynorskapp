@@ -10,6 +10,19 @@
 	}
 }
 
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+	}
+	50% {
+		box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+	}
+	100% {
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+	}
+}
+
+
 @font-face {
 	font-family: 'ModernPictogramsNormal';
 	src: url('modernpics-webfont.eot');
@@ -25,8 +38,7 @@
 html {
 	background: #682932 url(bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	        background-size: cover;
 }
 
 body {
@@ -52,7 +64,9 @@ a {
 	margin-top: 200px;
 	margin-left: 20%;
 	max-width: 390px;
-	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	   -moz-transition: all 0.4s;
+	        transition: all 0.4s;
 }
 
 .button {
@@ -76,11 +90,12 @@ a {
 
 .button-appstore {
 	background-color: #9e6a66;
-	background: -moz-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
 	background: -webkit-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
-	background: linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
+	background:    -moz-linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
+	background:         linear-gradient(top, rgba(199, 142, 138, 0.2), rgba(158, 106, 102, 1));
 	border: 1px solid rgba(155, 101, 99, 0.6);
 	-webkit-animation: pulse 2s infinite ease-in-out;
+	        animation: pulse 2s infinite ease-in-out;
 }
 
 .button-appstore small:before {
@@ -95,8 +110,8 @@ a {
 	font-size: 13px;
 	opacity: 0.6;
 	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
+	   -moz-transition: opacity 0.5s ease-in-out;
+	        transition: opacity 0.5s ease-in-out;
 }
 
 .credit:hover {
@@ -143,9 +158,9 @@ a {
 	}
 
 	.button-appstore {
-		background: -moz-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
 		background: -webkit-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
-		background: linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
+		background:    -moz-linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
+		background:         linear-gradient(top, rgb(199, 142, 138), rgb(158, 106, 102));
 	}
 }
 
