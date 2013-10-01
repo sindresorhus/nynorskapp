@@ -186,7 +186,6 @@ a {
 @media (max-width: 340px) {
 	.button {
 		padding-left: 30px;
-		border: 1px solid #f00;
 	}
 
 	.button-appstore:before {
