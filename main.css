@@ -65,8 +65,6 @@ a {
 	margin-top: 200px;
 	margin-left: 20%;
 	max-width: 390px;
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
 }
 
 .button {
